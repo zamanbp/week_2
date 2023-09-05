@@ -1,0 +1,813 @@
+/* Here starts the Nav bar css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: rgba(46, 51, 58, 1);
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px rgba(0, 0, 0, 1), -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px rgba(59, 68, 81, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    height: 30px;
+    width: 95px;
+}
+
+
+.search-bar {
+    width: 300px;
+    height: 15px;
+    padding: 8px 13px;
+    border-radius: 6.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(46, 51, 58, 1);
+    border: none;
+    margin-right: 675px;
+    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px rgba(0, 0, 0, 1) inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px rgba(59, 68, 81, 1) inset;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 675px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.search-bar::placeholder{
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+
+.nav-btn{
+    display: flex;
+    gap: 22px;
+    height: 45px;
+    right: 60px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame img{
+    width: 38px;
+    height: 38px; 
+}
+.btns button{
+    height: 40px;
+    width: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 51, 58, 1);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px rgba(0, 0, 0, 1),-6.223021507263184px -6.223021507263184px 18.669065475463867px 0px rgba(59, 68, 81, 1);
+}
+.btns{
+    height: 100%;
+}
+.btns img{
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+}
+/* Nav bar ends  */
+
+/* Side bar strats here  */
+.sidebar-container{
+    padding-top: 120px;
+    position: fixed;
+}
+.sidebar{
+    width: 75px;
+    height: 550px;
+    padding: 18px 0;
+    border-radius: 0 18px 18px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgba(46, 51, 58, 1);
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px rgba(0, 0, 0, 1), -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px rgba(59, 68, 81, 1);
+}
+
+.sidebar-btns button{
+    height: 40px;
+    width: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 51, 58, 1);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px rgba(0, 0, 0, 1),-6.223021507263184px -6.223021507263184px 18.669065475463867px 0px rgba(59, 68, 81, 1);
+}
+
+.sidebar-btns{
+    height: 50px;
+}
+.sidebar-btns img{
+    margin-top: 5px;
+    height: 19px;
+    width: 19px;
+}
+.main-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 13px;
+}
+.exit-sidebar{
+    padding-left: 13px;
+}
+/* Side bar ends here  */
+
+/* Here starts the upper side 2 sets fo frame( one single frame and other set of six frames) */
+.upper-frames{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.uf-left{
+    height: 315px;
+    width: 250px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 25px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
+
+.uf-left-first #second{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+} 
+
+.uf-left-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.ulb-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.uf-left-frame #style-1{
+    color: var(--White-colour, #FFF);
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.uf-left-frame #style-2{
+    color: var(--Secondary-Blue, #0ED2F6);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+}
+
+.uf-left-frame #style-3{
+    color: var(--Secondary-Blue-light-2, #B8F1FC);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}
+
+.uf-left-frame #style-4{
+    color: var(--White-colour, #FFF);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}
+
+.uf-left-frame #style-5{
+    color: var(--blue-Grey, #B2C2CB);
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+
+.uf-left-frame #style-6{
+    color: var(--Secondary-Blue-light-2, #B8F1FC);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}
+
+.uf-left-frame #style-7{
+    color: var(--Secondary-Blue-light-1, #72E4F9);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+}
+
+.uf-left-first{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.uf-left-balance{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.uf-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.ufr{
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+}
+
+.ufr-frame{
+    display: flex;
+    width: 130px;
+    height: 100px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 18px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+
+.small-frame-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.frame1 {
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.sfc-logo {
+    padding: 4px;
+    background: #C9EBFF;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.pic {
+    width: 30px;
+    height: 28px;
+}
+
+.name-form {
+    margin-left: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.nf-name span{
+    color: white;
+    font-size: 75%;
+    font-family: Poppins;
+    font-weight: 550;
+    line-height: 23.40px;
+    word-wrap: break-word;
+}
+
+.perframe {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.vector img{
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+}
+
+.percentage span{
+    text-align: right;
+    color: #DA3922;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 15.60px;
+    word-wrap: break-word;
+}
+
+.graph-frame {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 5px;
+}
+
+.num-frame {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    display: inline-flex;
+}
+
+.num span{
+    text-align: center;
+    color: #E93D25;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 29.90px;
+    word-wrap: break-word;
+}
+
+.usd-num {
+    width: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.Usd {
+    text-align: right;
+    color: #B2C2CB;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 18.20px;
+    word-wrap: break-word;
+}
+
+.graph-image {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+/* Here ends the upper side frames  */
+
+
+/* Here starts the lower side frames which contain 6 frames  */
+.lower-body {                   /*This is the container of the whole lower body(or lower frame container)*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    padding-left: 109px;
+    padding-top: 100px;
+}
+
+.frame-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.uf-left-lines {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+    display: inline-flex;
+}
+
+
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.ul-frames-container {                  /*This is the frame container of 3 frames(count 2(3 each))*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.ufc-frame {
+    display: flex;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    border-radius: 30px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+
+.ufc-heading-container {
+    align-self: stretch;
+    height: 18%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.ufc-frame #style-1 {
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-2 {
+    color: #B2C2CB;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.ufc-frame #style-3 {
+    color: #0ED2F6;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-4 {
+    color: #B8F1FC;
+    font-size: 8.5px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-5 {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+}
+
+.ufc-frame #style-6 {
+    color: #E93D25;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-7 {
+    color: #B2C2CB;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-8 {
+    color: #E7ECEF;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.ufc-frame #style-9 {
+    color: #B8F1FC;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.scholarspan {
+    color: #B2C2CB;
+    font-size: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.slpspan {
+    color: #0ED2F6;
+    font-size: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+
+
+.ufc-frame-container {
+    gap: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    height: 190px;
+    width: 80%;
+}
+
+.ufcf-fir-part {
+    background: #2E333A;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.ufcf-frame {
+    width: 140px;
+    height: 80px;
+    position: relative;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ufcf-frame img {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    border-radius: 100px;
+    padding: 5px;
+    border: none;
+    border-left: 2px solid orangered;
+    object-fit: cover;
+}
+
+.ufcf-sec-part {
+    background-color: #2E333A;
+    width: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+
+}
+
+.sec-part1,
+.sec-part2,
+.sec-part3 {
+    width: 100px;
+}
+
+
+.ufc-detbtn-container {
+    display: flex;
+    width: 200px;
+    gap: 20px;
+    align-items: center;
+}
+
+.details-button,
+.closeButton {
+    display: flex;
+    align-items: center;
+    width: 75px;
+    height: 17px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #2E333A;
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.details-button button a{
+    background-color: #00000000;
+    border: none;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #72E4F9;
+
+}
+.details-button button {
+    background-color: #00000000;
+    border: none;
+}
+.edit-button {
+    height: 33px;
+    width: 33px;
+    padding: 0;
+    background: #2E333A;
+    box-shadow: 4px 4px 8px 0px #000, -4px -4px 6px 0px #3B4451;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.sec-part-sub {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.sps-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sps-sub img {
+    width: 15px;
+    height: 15px;
+    border: 0.10px #2E333A solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ufc-info-sub2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.ul-ufci {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ufc-info-container{
+    width: 100%;
+}
+
+.optionButton {
+    margin-top: 70px;
+    align-items: start;
+    width: 300px;
+}
+
+.optionButton select{
+    flex: 1;
+    width: 110px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(46, 51, 58, 1);
+    color: white;
+    background: rgba(46, 51, 58, 1);
+    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px rgba(0, 0, 0, 1) inset,-6.223021507263184px -6.223021507263184px 6.223021507263184px 0px rgba(59, 68, 81, 1) inset;
+}
+
+/* the odd frame (form the 6 frame ) */
+.graphDiv {                                     /* graph container and select bar */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Graph and right side Pv list frames  */
+.graphClass{
+    gap: 15px;
+    display: flex;
+}
+
+.graphPhoto img{
+    width: 210px;
+    height: 145px;
+}
+
+.graphPV{
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 5 PV list that placed right side of graph  */
+.pvList{
+    display: flex;
+}
+
+.pvList #s-1{
+    font-family: Roboto;
+    font-weight: 600;
+    color: var(--Dark-Blue, #0C2756);
+    font-size: 12px;
+    display: flex;
+    padding: 4px 3px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid #2E333A;
+    background: var(--Secondary-Blue-light-1, #72E4F9);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+.pvList #s-2{
+    font-family: Roboto;
+    font-weight: 600;
+    color: var(--Dark-Blue, #0C2756);
+    font-size: 12px;
+    display: flex;
+    padding: 4px 3px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #FF9B9B;   
+}
+.pvList #s-3{
+    font-family: Roboto;
+    font-weight: 600;
+    color: var(--Dark-Blue, #0C2756);
+    font-size: 12px;
+    display: flex;
+    padding: 4px 3px;
+    align-items: flex-start;
+    gap: 10px;    
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #F6FF93;
+}
+.pvList #s-4{
+    font-family: Roboto;
+    font-weight: 600;
+    color: var(--Dark-Blue, #0C2756);
+    font-size: 12px;
+    display: flex;
+    padding: 4px 3px;
+    align-items: flex-start;
+    gap: 10px;   
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #4F98FF;
+}
+.pvList #s-5{
+    font-family: Roboto;
+    font-weight: 600;
+    color: var(--Dark-Blue, #0C2756);
+    font-size: 12px;
+    display: flex;
+    padding: 4px 3px;
+    align-items: flex-start;
+    gap: 10px;   
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #DF9CFF; 
+}
+
+/* two buttons which is placed at two sides of close button  */
+.cardButton,
+.editButton{
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}

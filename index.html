@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Page-1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/landingPage.css">
+    
+</head>
+<body>
+    <div class="navbar-container">
+        <nav class="navbar">
+            <div class="techfriar-logo">
+                <img src="./Images/techfriar.png" alt="techfriar-logo">
+            </div>
+            <div class="nav-buttons">
+                <button class="signin-button">Sign In</button>
+                <button class="discord-logo">
+                    <img src="./Images/discord.png" alt="discord-logo">
+                </button>
+            </div>
+        </nav>
+    </div>
+    <div class="main-body" style="margin-top: 100px;">
+        <div class="background-img">
+            <img src="./Images/bg.png" alt="background-image">
+        </div>
+        <div class="gradient">
+    
+        </div>
+        <div class="frame">
+            <div class="p-acc">
+                <div class="p1">
+                    <p>Year’s end is neither an end nor a beginning but a going on.</p>
+                </div>
+                <div class="p2">
+                    <p>Join us to celebrate the last night of the year across the country.</p>
+                <div>
+            </div>
+            <div class="create_button">
+                <a href="#" class="custom-button">Create account</a>
+                <div class="women">
+                    <img src="./Images/women.png" alt="women-image">
+                    <p>+ 23547 registrations</p>
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="content-rows">
+            <div class="text-box">
+                <div class="headline">
+                    <img src="./Images/vector1.png" alt="truth-logo">
+                    <p id="p-head">A single source  of truth</p>
+                </div>
+                <div class="content-paragraph">
+                    <p id="p-graph">When you add work to your 
+                        Slate calendar we automatically 
+                        calculate useful insights 
+                    </p>
+                </div>
+            </div>
+            <div class="text-box">
+                <div class="headline">
+                    <img src="./Images/Vector2.png" alt="interface-logo">
+                    <p id="p-head">Intuitive interface</p>
+                </div>
+                <div class="content-paragraph">
+                    <p id="p-graph">
+                        When you add work to your Slate calendar we automatically calculate useful insights
+                    </p>
+                </div>
+            </div>
+            <div class="text-box">
+                <div class="headline">
+                    <img src="./Images/Vector3.png" style="height: 19px; width: 35px;" alt="rules-logo">
+                    <p id="p-head">Or with rules</p>
+                </div>
+                <div class="content-paragraph">
+                    <p id="p-graph">
+                        When you add work to your Slate calendar we automatically calculate useful insights 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-half">
+            <div class="add-account" id="createAccountForm" >
+                <div class="heading">
+                    <p>Add New Account</p>
+                </div>
+                <div class="form-container">
+                    <div class="form-class">
+                        <form class="add-account-form" id="submissionForNext">
+                            <div class="input-group">
+                                <div class="dis-block">
+                                    <br><label for="name">Name</label><br>
+                                    <input type="text" required>
+                                </div>
+                                <div class="dis-block">
+                                    <br><label for="email">Email</label><br>
+                                    <input type="email" required>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <div class="dis-block">
+                                    <br><label for="organization">Organization</label><br>
+                                    <input type="text" required>
+                                </div>
+                                <div class="dis-block">
+                                    <br><label for="role">Role</label><br>
+                                    <select name="role">
+                                        <option value="" disabled selected>Scholar</option>
+                                        <option value="admin">Admin</option>
+                                        <option value="user">User</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <div class="dis-block">
+                                    <br><label for="password">Password:</label><br>
+                                    <input type="password" required>
+                                </div>
+                                <div class="dis-block">
+                                    <br><label for="confirm-pass">Confirm Password:</label><br>
+                                    <input type="password" required>
+                                </div>
+                            </div>
+                            <br><label for="pro-summary">Profile Summary:</label>
+                            <textarea></textarea>
+                            <a href="#" id="showSignIn" style="color:rgba(114, 228, 249, 1);">Already have an account?</a>
+                            <button class="custom-button2" type="submit">Create account</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="loginAcc" id="signInForm" style="display: none;">
+                <div class="loginHead">
+                    <span>Sign In Your Account</span>
+                </div>
+                <div class="loginForm" >
+                    <form action="#" class="loginForm-Form" id="submissionForNext">
+                        <div class="inputBoxDiv">
+                            <label for="name">Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="inputBoxDiv">
+                            <label for="email">Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="inputBoxDiv">
+                            <label for="password">Password:</label>
+                            <input type="password" required> 
+                            <div class="signInQue">
+                                <a href="#">Forgot your password ?</a><br>
+                                <a href="#" id="showCreateAccount" style="text-decoration: none;">New here ? Create account</a>
+                            </div>
+                        </div>
+                        <div class="signInButtonDiv">
+                            <button class="signInButton" type="submit">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+    
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
+    <script src>
+
+    </script>
+    
+</body>
+</html>

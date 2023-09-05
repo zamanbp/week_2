@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    <style>
+        body {                                                 /*  this is full body */
+            margin: 0;
+            padding: 0;
+            height: 1600px;
+            background-color: rgba(46, 51, 58, 1);
+        }
+
+        .main-body {                                            /*  this is body after navigation bar and side-bar */
+            padding-top: 130px;
+            /* To push content below the fixed navbar */
+            left: 120px;
+            height: 100%;
+            width: 87%;
+            position: relative;
+            z-index: -1;
+            align-items: center;
+            justify-content: space-between;
+            gap: 100px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/trackerPage.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar from here -->
+
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="../Images/techfriar.png" alt="techfriar-logo">
+        </div>
+        <div class="search-bar-container">
+            <img src="../Images/Search.png" alt="Search Icon" class="search-icon">
+            <input type="text" class="search-bar" placeholder="Search Expence">
+        </div>
+        <div class="nav-btn">
+            <div class="btns">
+                <button><a href="#"><img src="../Images/discord.png"></a></button>
+            </div>
+            <div class="btns">
+                <button><a href="#"><img src="../Images/twitter.png" style="height: 22px;"></a></button>
+            </div>
+            <div class="btns">
+                <button><a href="#"><img src="../Images/bell.png" style="width: 28px; height: 28px;"></a></button>
+            </div>
+            <div class="frame">
+                <img src="../Images/nav-pic.png">
+            </div>
+        </div>
+    </div>
+    <!-- Navigation bar ends here -->
+
+
+    <!-- Side bar from here -->
+
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="main-sidebar">
+                <div class="sidebar-btns">
+                    <button><a href="overviewPage.html"><img src="../Images/sb1.png" style="height: 17px; "></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button><a href="#"><img src="../Images/discord.png"></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button style="background: var(--Dark-colour, #2E333A);box-shadow: 3.73381px 3.73381px 6.22302px 0px #000 inset, -6.22302px -6.22302px 6.22302px 0px #3B4451 inset;"><a href="#"><img src="../Images/sb2.png"></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button><a href="#"><img src="../Images/sb3.png"></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button><a href="#"><img src="../Images/sb4.png"></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button><a href="#"><img src="../Images/sb5.png" style="height: 17px;"></a></button>
+                </div>
+                <div class="sidebar-btns">
+                    <button><a href="#"><img src="../Images/sb6.png" style="height: 16.8px; width: 17px;"></a></button>
+                </div>
+            </div>
+            <div class="exit-sidebar">
+                <div class="sidebar-btns">
+                    <button><a href="../index.html"><img src="../Images/sb7.png" ></a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Side bar ends here -->
+
+    <div class="main-body">
+
+        <!-- upper side frames  -->
+
+        <div class="upper-frames">
+            <div class="uf-left">                               <!-- Upper side left Single frame -->
+                <div class="uf-left-frame">
+                    <div class="uf-left-first">
+                        <div id="first">
+                            <span id="style-1">Today so far:</span>
+                        </div>
+                        <div id="second">
+                            <span id="style-2">0 SLP</span>
+                            <span id="style-3">~0.00 USD</span>
+                        </div>
+                    </div>
+                    <div class="uf-left-balance">
+                        <div class="ulb-left">
+                            <span id="style-4">Yesterday's SLP :</span>
+                        </div>
+                        <div class="ulb-right">
+                            <span id="style-5">10 SLP</span>
+                            <span id="style-6">~0.18 USD</span>
+                        </div>
+                    </div>
+                    <div class="uf-left-balance">
+                        <div class="ulb-left">
+                            <span id="style-4">Lifetime SLP :</span>
+                        </div>
+                        <div class="ulb-right">
+                            <span id="style-5">30 SLP</span>
+                            <span id="style-6">~1.18 USD</span>
+                        </div>
+                    </div>
+                    <div class="uf-left-balance">
+                        <span id="style-4">Total Axies :&nbsp;<span id="style-7">3</span></span>
+                    </div>
+                    <div class="uf-left-balance">
+                        <span id="style-4">Total Accounts :&nbsp;<span id="style-7">10</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="uf-right">                          <!-- Right side frames ( count 6 total )-->
+                <div class="ufr">
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img1.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Ronin Account</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/downarrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span>1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span>28</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~0.6USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="41" viewBox="0 0 141 41"
+                                        fill="none">
+                                        <path
+                                            d="M133.556 20.4795L140.278 33.5346C140.424 33.8177 140.5 34.1316 140.5 34.4501V38.5C140.5 39.6046 139.605 40.5 138.5 40.5H2.49998C1.39542 40.5 0.5 39.6046 0.5 38.5V18.5662C0.5 16.6324 2.97156 15.8244 4.11382 17.3848L14.8247 32.0168C15.5654 33.0286 17.0438 33.1171 17.8999 32.2008L29.7426 19.5257C30.5299 18.683 31.8648 18.679 32.6571 19.5169L43.9276 31.4351C44.9883 32.5567 46.8659 32.1048 47.3 30.6234L51.4091 16.6039L55.508 5.58297C56.1559 3.84077 58.6225 3.84755 59.2609 5.59328L68.6134 31.1695C69.2033 32.7827 71.4182 32.9509 72.2449 31.4452L80.6169 16.1961C81.3151 14.9245 83.0923 14.7958 83.9663 15.9536L89.7394 23.6011C90.1174 24.1018 90.7083 24.3961 91.3357 24.3961H103.921C104.758 24.3961 105.506 23.8755 105.796 23.0911L110.087 11.5141C110.742 9.74648 113.255 9.78366 113.857 11.5699L119.223 27.4795C119.705 28.9082 121.535 29.3101 122.571 28.2149L130.325 20.0203C131.273 19.0191 132.925 19.2539 133.556 20.4795Z"
+                                            fill="url(#paint0_linear_281_10621)" />
+                                        <path
+                                            d="M140.5 33.9655L133.556 20.4795C132.925 19.2539 131.273 19.0191 130.325 20.0203L122.571 28.2149C121.535 29.3101 119.705 28.9082 119.223 27.4795L113.857 11.5699C113.255 9.78366 110.742 9.74648 110.087 11.5141L105.796 23.0911C105.506 23.8755 104.758 24.3961 103.921 24.3961H91.3357C90.7084 24.3961 90.1174 24.1018 89.7394 23.6011L83.9663 15.9536C83.0923 14.7958 81.3151 14.9245 80.6169 16.1961L72.2449 31.4452C71.4182 32.9509 69.2033 32.7827 68.6134 31.1695L59.2609 5.59328C58.6225 3.84755 56.1559 3.84077 55.508 5.58297L51.4091 16.6039L47.3001 30.6234C46.8659 32.1048 44.9883 32.5567 43.9276 31.4351L32.6571 19.5169C31.8648 18.679 30.5299 18.683 29.7426 19.5257L17.8999 32.2008C17.0438 33.1171 15.5654 33.0286 14.8247 32.0168L0.499997 12.4481"
+                                            stroke="url(#paint1_linear_281_10621)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_281_10621" x1="70.5" y1="0.5" x2="66.654"
+                                                y2="31.6451" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E84F51" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_281_10621" x1="150.981" y1="34.7857"
+                                                x2="-4.72509" y2="32.628" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E95353" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#F55151" />
+                                                <stop offset="1" stop-color="#EF5050" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img2.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Scholar</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/uparrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span style="color:rgba(14, 210, 246, 1);">1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span style="color:rgba(14, 210, 246, 1);">180</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~2.6USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="31" viewBox="0 0 141 31"
+                                        fill="none">
+                                        <path opacity="0.5"
+                                            d="M13.9356 14.3005L1.93091 17.8636C1.08213 18.1156 0.5 18.8956 0.5 19.781V27.5473C0.5 28.6458 1.38597 29.5387 2.48444 29.5472L133.338 30.5654C134.259 30.5726 135.066 29.9497 135.292 29.0568L139.869 10.9966C140.189 9.73275 139.234 8.50529 137.93 8.50529H127.601C126.801 8.50529 126.077 8.98277 125.762 9.71893L121.569 19.5249C120.977 20.9092 119.126 21.1677 118.177 19.9986L108.553 8.13582C107.8 7.20821 106.408 7.1428 105.571 7.99579L92.8163 21.0071C91.9923 21.8476 90.6242 21.7983 89.8628 20.9007L85.3178 15.5421C84.9378 15.0941 84.38 14.8358 83.7925 14.8358H79.8144C79.1233 14.8358 78.4811 14.4789 78.1161 13.8921L71.6754 3.53707C70.887 2.26952 69.0381 2.28113 68.2657 3.55848L62.8804 12.4639C62.5182 13.063 61.8691 13.429 61.169 13.429H58.5239C57.8125 13.429 57.1546 13.8069 56.7962 14.4215L50.4348 25.3308C49.788 26.44 48.2785 26.661 47.3408 25.7839L37.8996 16.9525C37.4238 16.5074 36.761 16.322 36.1233 16.4556L24.723 18.8436C24.2659 18.9393 23.7897 18.8721 23.3769 18.6535L15.4407 14.4504C14.978 14.2053 14.4376 14.1515 13.9356 14.3005Z"
+                                            fill="url(#paint0_linear_313_18431)" />
+                                        <path
+                                            d="M0.566406 18.691L13.8699 14.6636C14.3747 14.5108 14.9194 14.5636 15.3855 14.8104L23.2911 18.9973C23.719 19.2239 24.2145 19.2876 24.6858 19.1766L36.098 16.4881C36.7493 16.3347 37.4342 16.5171 37.9229 16.9742L47.3409 25.7839C48.2785 26.661 49.7881 26.44 50.4348 25.3308L56.7962 14.4215C57.1546 13.8069 57.8125 13.429 58.5239 13.429H61.169C61.8691 13.429 62.5182 13.0629 62.8805 12.4639L68.2657 3.55848C69.0381 2.28113 70.887 2.26952 71.6754 3.53708L78.1161 13.8921C78.4811 14.4789 79.1233 14.8358 79.8144 14.8358H83.7925C84.38 14.8358 84.9378 15.094 85.3178 15.5421L89.8628 20.9007C90.6242 21.7983 91.9923 21.8476 92.8163 21.0071L105.571 7.99579C106.408 7.1428 107.8 7.20821 108.553 8.13582L118.177 19.9986C119.126 21.1677 120.977 20.9092 121.569 19.5249L125.762 9.71893C126.077 8.98277 126.801 8.50529 127.601 8.50529H140.5"
+                                            stroke="url(#paint1_linear_313_18431)" stroke-linejoin="round" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_313_18431" x1="70.5" y1="0.768063"
+                                                x2="72.668" y2="23.6998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_313_18431" x1="-9.6031" y1="23.0419"
+                                                x2="140.432" y2="19.5364" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#0ED2F6" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img3.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Manager</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/uparrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span style="color:rgba(14, 210, 246, 1);">1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span>60</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~0.8USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="31" viewBox="0 0 141 31"
+                                        fill="none">
+                                        <path opacity="0.5"
+                                            d="M13.9356 14.3005L1.93091 17.8636C1.08213 18.1156 0.5 18.8956 0.5 19.781V27.5473C0.5 28.6458 1.38597 29.5387 2.48444 29.5472L133.338 30.5654C134.259 30.5726 135.066 29.9497 135.292 29.0568L139.869 10.9966C140.189 9.73275 139.234 8.50529 137.93 8.50529H127.601C126.801 8.50529 126.077 8.98277 125.762 9.71893L121.569 19.5249C120.977 20.9092 119.126 21.1677 118.177 19.9986L108.553 8.13582C107.8 7.20821 106.408 7.1428 105.571 7.99579L92.8163 21.0071C91.9923 21.8476 90.6242 21.7983 89.8628 20.9007L85.3178 15.5421C84.9378 15.0941 84.38 14.8358 83.7925 14.8358H79.8144C79.1233 14.8358 78.4811 14.4789 78.1161 13.8921L71.6754 3.53707C70.887 2.26952 69.0381 2.28113 68.2657 3.55848L62.8804 12.4639C62.5182 13.063 61.8691 13.429 61.169 13.429H58.5239C57.8125 13.429 57.1546 13.8069 56.7962 14.4215L50.4348 25.3308C49.788 26.44 48.2785 26.661 47.3408 25.7839L37.8996 16.9525C37.4238 16.5074 36.761 16.322 36.1233 16.4556L24.723 18.8436C24.2659 18.9393 23.7897 18.8721 23.3769 18.6535L15.4407 14.4504C14.978 14.2053 14.4376 14.1515 13.9356 14.3005Z"
+                                            fill="url(#paint0_linear_313_18448)" />
+                                        <path
+                                            d="M0.566406 18.691L13.8699 14.6636C14.3747 14.5108 14.9194 14.5636 15.3855 14.8104L23.2911 18.9973C23.719 19.2239 24.2145 19.2876 24.6858 19.1766L36.098 16.4881C36.7493 16.3347 37.4342 16.5171 37.9229 16.9742L47.3409 25.7839C48.2785 26.661 49.7881 26.44 50.4348 25.3308L56.7962 14.4215C57.1546 13.8069 57.8125 13.429 58.5239 13.429H61.169C61.8691 13.429 62.5182 13.0629 62.8805 12.4639L68.2657 3.55848C69.0381 2.28113 70.887 2.26952 71.6754 3.53708L78.1161 13.8921C78.4811 14.4789 79.1233 14.8358 79.8144 14.8358H83.7925C84.38 14.8358 84.9378 15.094 85.3178 15.5421L89.8628 20.9007C90.6242 21.7983 91.9923 21.8476 92.8163 21.0071L105.571 7.99579C106.408 7.1428 107.8 7.20821 108.553 8.13582L118.177 19.9986C119.126 21.1677 120.977 20.9092 121.569 19.5249L125.762 9.71893C126.077 8.98277 126.801 8.50529 127.601 8.50529H140.5"
+                                            stroke="url(#paint1_linear_313_18448)" stroke-linejoin="round" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_313_18448" x1="70.5" y1="0.768063"
+                                                x2="72.668" y2="23.6998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_313_18448" x1="-9.6031" y1="23.0419"
+                                                x2="140.432" y2="19.5364" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#0ED2F6" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ufr">
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img4.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Unclaimed SLP</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/uparrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span style="color:rgba(14, 210, 246, 1);">1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span>165</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~2.6USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="31" viewBox="0 0 141 31"
+                                        fill="none">
+                                        <path opacity="0.5"
+                                            d="M13.9356 14.3005L1.93091 17.8636C1.08213 18.1156 0.5 18.8956 0.5 19.781V27.5473C0.5 28.6458 1.38597 29.5387 2.48444 29.5472L133.338 30.5654C134.259 30.5726 135.066 29.9497 135.292 29.0568L139.869 10.9966C140.189 9.73275 139.234 8.50529 137.93 8.50529H127.601C126.801 8.50529 126.077 8.98277 125.762 9.71893L121.569 19.5249C120.977 20.9092 119.126 21.1677 118.177 19.9986L108.553 8.13582C107.8 7.20821 106.408 7.1428 105.571 7.99579L92.8163 21.0071C91.9923 21.8476 90.6242 21.7983 89.8628 20.9007L85.3178 15.5421C84.9378 15.0941 84.38 14.8358 83.7925 14.8358H79.8144C79.1233 14.8358 78.4811 14.4789 78.1161 13.8921L71.6754 3.53707C70.887 2.26952 69.0381 2.28113 68.2657 3.55848L62.8804 12.4639C62.5182 13.063 61.8691 13.429 61.169 13.429H58.5239C57.8125 13.429 57.1546 13.8069 56.7962 14.4215L50.4348 25.3308C49.788 26.44 48.2785 26.661 47.3408 25.7839L37.8996 16.9525C37.4238 16.5074 36.761 16.322 36.1233 16.4556L24.723 18.8436C24.2659 18.9393 23.7897 18.8721 23.3769 18.6535L15.4407 14.4504C14.978 14.2053 14.4376 14.1515 13.9356 14.3005Z"
+                                            fill="url(#paint0_linear_313_18448)" />
+                                        <path
+                                            d="M0.566406 18.691L13.8699 14.6636C14.3747 14.5108 14.9194 14.5636 15.3855 14.8104L23.2911 18.9973C23.719 19.2239 24.2145 19.2876 24.6858 19.1766L36.098 16.4881C36.7493 16.3347 37.4342 16.5171 37.9229 16.9742L47.3409 25.7839C48.2785 26.661 49.7881 26.44 50.4348 25.3308L56.7962 14.4215C57.1546 13.8069 57.8125 13.429 58.5239 13.429H61.169C61.8691 13.429 62.5182 13.0629 62.8805 12.4639L68.2657 3.55848C69.0381 2.28113 70.887 2.26952 71.6754 3.53708L78.1161 13.8921C78.4811 14.4789 79.1233 14.8358 79.8144 14.8358H83.7925C84.38 14.8358 84.9378 15.094 85.3178 15.5421L89.8628 20.9007C90.6242 21.7983 91.9923 21.8476 92.8163 21.0071L105.571 7.99579C106.408 7.1428 107.8 7.20821 108.553 8.13582L118.177 19.9986C119.126 21.1677 120.977 20.9092 121.569 19.5249L125.762 9.71893C126.077 8.98277 126.801 8.50529 127.601 8.50529H140.5"
+                                            stroke="url(#paint1_linear_313_18448)" stroke-linejoin="round" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_313_18448" x1="70.5" y1="0.768063"
+                                                x2="72.668" y2="23.6998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_313_18448" x1="-9.6031" y1="23.0419"
+                                                x2="140.432" y2="19.5364" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ED2F6" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#0ED2F6" />
+                                                <stop offset="1" stop-color="#0ED2F6" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img5.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Average SLP</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/downarrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span>1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span>28</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~0.2USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="41" viewBox="0 0 141 41"
+                                        fill="none">
+                                        <path
+                                            d="M133.556 20.4795L140.278 33.5346C140.424 33.8177 140.5 34.1316 140.5 34.4501V38.5C140.5 39.6046 139.605 40.5 138.5 40.5H2.49998C1.39542 40.5 0.5 39.6046 0.5 38.5V18.5662C0.5 16.6324 2.97156 15.8244 4.11382 17.3848L14.8247 32.0168C15.5654 33.0286 17.0438 33.1171 17.8999 32.2008L29.7426 19.5257C30.5299 18.683 31.8648 18.679 32.6571 19.5169L43.9276 31.4351C44.9883 32.5567 46.8659 32.1048 47.3 30.6234L51.4091 16.6039L55.508 5.58297C56.1559 3.84077 58.6225 3.84755 59.2609 5.59328L68.6134 31.1695C69.2033 32.7827 71.4182 32.9509 72.2449 31.4452L80.6169 16.1961C81.3151 14.9245 83.0923 14.7958 83.9663 15.9536L89.7394 23.6011C90.1174 24.1018 90.7083 24.3961 91.3357 24.3961H103.921C104.758 24.3961 105.506 23.8755 105.796 23.0911L110.087 11.5141C110.742 9.74648 113.255 9.78366 113.857 11.5699L119.223 27.4795C119.705 28.9082 121.535 29.3101 122.571 28.2149L130.325 20.0203C131.273 19.0191 132.925 19.2539 133.556 20.4795Z"
+                                            fill="url(#paint0_linear_281_10621)" />
+                                        <path
+                                            d="M140.5 33.9655L133.556 20.4795C132.925 19.2539 131.273 19.0191 130.325 20.0203L122.571 28.2149C121.535 29.3101 119.705 28.9082 119.223 27.4795L113.857 11.5699C113.255 9.78366 110.742 9.74648 110.087 11.5141L105.796 23.0911C105.506 23.8755 104.758 24.3961 103.921 24.3961H91.3357C90.7084 24.3961 90.1174 24.1018 89.7394 23.6011L83.9663 15.9536C83.0923 14.7958 81.3151 14.9245 80.6169 16.1961L72.2449 31.4452C71.4182 32.9509 69.2033 32.7827 68.6134 31.1695L59.2609 5.59328C58.6225 3.84755 56.1559 3.84077 55.508 5.58297L51.4091 16.6039L47.3001 30.6234C46.8659 32.1048 44.9883 32.5567 43.9276 31.4351L32.6571 19.5169C31.8648 18.679 30.5299 18.683 29.7426 19.5257L17.8999 32.2008C17.0438 33.1171 15.5654 33.0286 14.8247 32.0168L0.499997 12.4481"
+                                            stroke="url(#paint1_linear_281_10621)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_281_10621" x1="70.5" y1="0.5" x2="66.654"
+                                                y2="31.6451" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E84F51" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_281_10621" x1="150.981" y1="34.7857"
+                                                x2="-4.72509" y2="32.628" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E95353" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#F55151" />
+                                                <stop offset="1" stop-color="#EF5050" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ufr-frame">
+                        <div class="small-frame-container">
+                            <div class="frame1">
+                                <div class="sfc-logo">
+                                    <img class="pic" src="../Images/f-img6.png" />
+                                </div>
+                                <div class="name-form">
+                                    <div class="nf-name">
+                                        <span>Total</span>
+                                    </div>
+                                    <div class="percentage-frame">
+                                        <div class="vector"><img src="../Images/downarrow.png" alt="downarrow"></div>
+                                        <div class="percentage">
+                                            <span>1.74%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-frame">
+                                <div class="num-frame">
+                                    <div class="num">
+                                        <span>28</span>
+                                    </div>
+                                    <div class="usd-num">
+                                        <span class="Usd">~0.2USD</span>
+                                    </div>
+                                </div>
+                                <div class="graph-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="41" viewBox="0 0 141 41"
+                                        fill="none">
+                                        <path
+                                            d="M133.556 20.4795L140.278 33.5346C140.424 33.8177 140.5 34.1316 140.5 34.4501V38.5C140.5 39.6046 139.605 40.5 138.5 40.5H2.49998C1.39542 40.5 0.5 39.6046 0.5 38.5V18.5662C0.5 16.6324 2.97156 15.8244 4.11382 17.3848L14.8247 32.0168C15.5654 33.0286 17.0438 33.1171 17.8999 32.2008L29.7426 19.5257C30.5299 18.683 31.8648 18.679 32.6571 19.5169L43.9276 31.4351C44.9883 32.5567 46.8659 32.1048 47.3 30.6234L51.4091 16.6039L55.508 5.58297C56.1559 3.84077 58.6225 3.84755 59.2609 5.59328L68.6134 31.1695C69.2033 32.7827 71.4182 32.9509 72.2449 31.4452L80.6169 16.1961C81.3151 14.9245 83.0923 14.7958 83.9663 15.9536L89.7394 23.6011C90.1174 24.1018 90.7083 24.3961 91.3357 24.3961H103.921C104.758 24.3961 105.506 23.8755 105.796 23.0911L110.087 11.5141C110.742 9.74648 113.255 9.78366 113.857 11.5699L119.223 27.4795C119.705 28.9082 121.535 29.3101 122.571 28.2149L130.325 20.0203C131.273 19.0191 132.925 19.2539 133.556 20.4795Z"
+                                            fill="url(#paint0_linear_281_10621)" />
+                                        <path
+                                            d="M140.5 33.9655L133.556 20.4795C132.925 19.2539 131.273 19.0191 130.325 20.0203L122.571 28.2149C121.535 29.3101 119.705 28.9082 119.223 27.4795L113.857 11.5699C113.255 9.78366 110.742 9.74648 110.087 11.5141L105.796 23.0911C105.506 23.8755 104.758 24.3961 103.921 24.3961H91.3357C90.7084 24.3961 90.1174 24.1018 89.7394 23.6011L83.9663 15.9536C83.0923 14.7958 81.3151 14.9245 80.6169 16.1961L72.2449 31.4452C71.4182 32.9509 69.2033 32.7827 68.6134 31.1695L59.2609 5.59328C58.6225 3.84755 56.1559 3.84077 55.508 5.58297L51.4091 16.6039L47.3001 30.6234C46.8659 32.1048 44.9883 32.5567 43.9276 31.4351L32.6571 19.5169C31.8648 18.679 30.5299 18.683 29.7426 19.5257L17.8999 32.2008C17.0438 33.1171 15.5654 33.0286 14.8247 32.0168L0.499997 12.4481"
+                                            stroke="url(#paint1_linear_281_10621)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_281_10621" x1="70.5" y1="0.5" x2="66.654"
+                                                y2="31.6451" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E84F51" />
+                                                <stop offset="1" stop-color="#343950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_281_10621" x1="150.981" y1="34.7857"
+                                                x2="-4.72509" y2="32.628" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E95353" stop-opacity="0" />
+                                                <stop offset="0.479167" stop-color="#F55151" />
+                                                <stop offset="1" stop-color="#EF5050" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>              <!--  Upper side frames ends here  -->
+
+
+        <div class="lower-body">                                    <!--  the body after upper frames  -->
+            <div class="frame-container">                           <!--The 6 big frames container-->
+                <div class="ul-frames-container">                   <!--This separates the upper 3 and lower 3 frames-->
+                    <div class="ufc-frame">                         <!--This is single frame container one/six  (The first out of six frame is different)-->
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                            <div class="ufc-sep-frame" style="display: flex; align-items: center; gap: 10px; margin-top: 20px;">
+                                <div class="ufc-sf-pic">
+                                    <img class="person-dp" src="../Images/person-dp.png" style="width: 70px;">
+                                </div>
+                                <div class="ufc-sf-det" style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+                                    <div class="ufcf-sec-part">
+                                        <div class="sec-part1">
+                                            <div class="sec-part-sub">
+                                                <span id="style-5">Today</span>
+                                                <span id="style-6" style="color: rgba(14, 210, 246, 1);">10 SLP</span>
+                                                <span id="style-7">~2.00 USD</span>
+                                            </div>
+                                        </div>
+                                        <div class="sec-part2">
+                                            <div class="sec-part-sub">
+                                                <span id="style-5">ELO</span>
+                                                <div class="sps-sub">
+                                                    <img src="../Images/bluetrophy.png"><span id="style-6" style="color: rgba(14, 210, 246, 1);">983</span>
+                                                </div>
+                                                <span id="style-7">~1 SLP/win</span>
+                                            </div>
+                                        </div>
+                                        <div class="sec-part3">
+                                            <div class="sec-part-sub">
+                                                <span id="style-5">Total</span>
+                                                <span id="style-6" style="color: rgba(14, 210, 246, 1);">15 SLP</span>
+                                                <span id="style-7">~7.00 USD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ufcf-body">
+                                        <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                        <span style="color: rgba(14, 210, 246, 1); font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                        <span id="style-4">~0.500 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="graphDiv">
+                            <div class="optionButton">
+                                <select name="time">
+                                    <option value="" disabled selected>Weekly</option>
+                                    <option value="admin">Monthly</option>
+                                    <option value="user">Daily</option>
+                                </select>
+                            </div>
+                            <div class="graphClass">
+                                <div class="graphPhoto">
+                                    <img src="../Images/graph.png" alt="graph">
+                                </div>
+                                <div class="graphPV">
+                                    <div class="pvList">
+                                        <span id="s-1">PVP Win</span>
+                                    </div>
+                                    <div class="pvList">
+                                        <span id="s-2">PVP Lose</span>
+                                    </div>
+                                    <div class="pvList">
+                                        <span id="s-3">PVP Draw</span>
+                                    </div>
+                                    <div class="pvList">
+                                        <span id="s-4">PVE Win</span>
+                                    </div>
+                                    <div class="pvList">
+                                        <span id="s-5">PVE Lose</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container" >
+                            <div class="cardButton">
+                                <img src="../Images/sb3.png" style="height: 22px;">
+                            </div>
+                            <div class="closeButton">
+                                <a href="#" style="text-decoration: none; font-family: Poppins;font-size: 16px;font-weight: 500;line-height: 30px;letter-spacing: 0em;text-align: center;color: #72E4F9;">&nbsp;Close</a>
+                            </div>
+                            <div class="editButton">
+                                <img src="../Images/edit-button.png" style="height: 22px;">
+                            </div> 
+                        </div>
+                        
+
+                        
+                    </div>                                    <!--Here ends the first single frame .. the rest 5 frames are very similar -->
+                    <div class="ufc-frame">                   <!--Here starts the next single frame-->
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-frame-container" style="margin-top: -25px;">
+                            <div class="ufcf-fir-part">
+                                <div class="ufcf-frame">
+                                    <img class="person-dp" src="../Images/person-dp.png" />
+                                </div>
+                                <div class="ufcf-body">
+                                    <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                    <span style="color: rgba(14, 210, 246, 1); font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                    <span id="style-4">~0.500 USD</span>
+                                </div>
+                            </div>
+                            
+                            <div class="ufcf-sec-part">
+                                <div class="sec-part1">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Today</span>
+                                        <span id="style-6">10 SLP</span>
+                                        <span id="style-7">~2.00 USD</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part2">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">ELO</span>
+                                        <div class="sps-sub">
+                                            <img src="../Images/redtrophy.png"><span id="style-6">983</span>
+                                        </div>
+                                        <span id="style-7">~1 SLP/win</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part3">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Total</span>
+                                        <span id="style-6">15 SLP</span>
+                                        <span id="style-7">~7.00 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-info-container">
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Yesterday</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">5 SLP</span>
+                                        <span id="style-7">~1.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Manager(100%)</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~0.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Lifetime</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">34 SLP</span>
+                                        <span id="style-7">~8.18 USD</span>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">In Ronin</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~3.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Unclaimed SLP<span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">25 SLP</span>
+                                        <span id="style-7">~6.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Next Claim</span>
+                                    </div>
+                                    <span style="color: var(--Secondary-Blue, #0ED2F6);font-family: Poppins;font-size: 12px;font-style: normal;font-weight: 500;line-height: 130%;">Claim is ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container">
+                            <div class="details-button">
+                                <button><a href="#">Details</button></a>
+                            </div>
+                            <div class="edit-button">
+                                <a href="#"><img src="../Images/edit-button.png" alt="edit-button"></a>
+                            </div>
+                        </div>
+                    </div>                  <!--Second frame ends-->
+                    <div class="ufc-frame">
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-frame-container" style="margin-top: -25px;">
+                            <div class="ufcf-fir-part">
+                                <div class="ufcf-frame">
+                                    <img class="person-dp" src="../Images/person-dp.png" />
+                                </div>
+                                <div class="ufcf-body">
+                                    <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                    <span style="color: #E93D25; font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                    <span id="style-4">~0.500 USD</span>
+                                </div>
+                            </div>
+                            
+                            <div class="ufcf-sec-part">
+                                <div class="sec-part1">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Today</span>
+                                        <span id="style-6" style="color: rgba(14, 210, 246, 1)">10 SLP</span>
+                                        <span id="style-7">~2.00 USD</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part2">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">ELO</span>
+                                        <div class="sps-sub">
+                                            <img src="../Images/bluetrophy.png"><span id="style-6" style="color: rgba(14, 210, 246, 1)">983</span>
+                                        </div>
+                                        <span id="style-7">~1 SLP/win</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part3">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Total</span>
+                                        <span id="style-6" style="color: rgba(14, 210, 246, 1)">15 SLP</span>
+                                        <span id="style-7">~7.00 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-info-container">
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Yesterday</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">5 SLP</span>
+                                        <span id="style-7">~1.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Manager(100%)</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~0.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Lifetime</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">34 SLP</span>
+                                        <span id="style-7">~8.18 USD</span>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">In Ronin</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~3.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Unclaimed SLP<span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">25 SLP</span>
+                                        <span id="style-7">~6.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Next Claim</span>
+                                    </div>
+                                    <span style="color: var(--Secondary-Blue, #0ED2F6);font-family: Poppins;font-size: 12px;font-style: normal;font-weight: 500;line-height: 130%;">Claim is ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container">
+                            <div class="details-button">
+                                <button><a href="#">Details</button></a>
+                            </div>
+                            <div class="edit-button">
+                                <a href="#"><img src="../Images/edit-button.png" alt="edit-button"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                        <!--Here ends the first set of the six container (3 each set)-->
+                <div class="ul-frames-container">                   <!--This separates the upper 3 and lower 3 frames-->
+                    <div class="ufc-frame">                         <!--This is single frame container one/six-->
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-frame-container" style="margin-top: -25px;">
+                            <div class="ufcf-fir-part">
+                                <div class="ufcf-frame">
+                                    <img class="person-dp" src="../Images/person-dp.png" />
+                                </div>
+                                <div class="ufcf-body">
+                                    <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                    <span style="color: #E93D25; font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                    <span id="style-4">~0.500 USD</span>
+                                </div>
+                            </div>
+                            
+                            <div class="ufcf-sec-part">
+                                <div class="sec-part1">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Today</span>
+                                        <span id="style-6">10 SLP</span>
+                                        <span id="style-7">~2.00 USD</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part2">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">ELO</span>
+                                        <div class="sps-sub">
+                                            <img src="../Images/bluetrophy.png"><span id="style-6" style="color: rgba(14, 210, 246, 1)">983</span>
+                                        </div>
+                                        <span id="style-7">~1 SLP/win</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part3">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Total</span>
+                                        <span id="style-6">15 SLP</span>
+                                        <span id="style-7">~7.00 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-info-container">
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Yesterday</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">5 SLP</span>
+                                        <span id="style-7">~1.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Manager(100%)</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~0.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Lifetime</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">34 SLP</span>
+                                        <span id="style-7">~8.18 USD</span>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">In Ronin</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~3.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Unclaimed SLP<span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">25 SLP</span>
+                                        <span id="style-7">~6.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Next Claim</span>
+                                    </div>
+                                    <span style="color: var(--Secondary-Blue, #0ED2F6);font-family: Poppins;font-size: 12px;font-style: normal;font-weight: 500;line-height: 130%;">Claim is ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container">
+                            <div class="details-button">
+                                <button><a href="#">Details</button></a>
+                            </div>
+                            <div class="edit-button">
+                                <a href="#"><img src="../Images/edit-button.png" alt="edit-button"></a>
+                            </div>
+                        </div>
+                    </div>                                    <!--Here ends the first single frame-->
+                    <div class="ufc-frame">
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-frame-container" style="margin-top: -25px;">
+                            <div class="ufcf-fir-part">
+                                <div class="ufcf-frame">
+                                    <img class="person-dp" src="../Images/person-dp.png" />
+                                </div>
+                                <div class="ufcf-body">
+                                    <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                    <span style="color: rgba(14, 210, 246, 1); font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                    <span id="style-4">~0.500 USD</span>
+                                </div>
+                            </div>
+                            
+                            <div class="ufcf-sec-part">
+                                <div class="sec-part1">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Today</span>
+                                        <span id="style-6" style="color: rgba(14, 210, 246, 1)">10 SLP</span>
+                                        <span id="style-7">~2.00 USD</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part2">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">ELO</span>
+                                        <div class="sps-sub">
+                                            <img src="../Images/bluetrophy.png"><span id="style-6" style="color: rgba(14, 210, 246, 1)">983</span>
+                                        </div>
+                                        <span id="style-7">~1 SLP/win</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part3">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Total</span>
+                                        <span id="style-6" style="color: rgba(14, 210, 246, 1)">15 SLP</span>
+                                        <span id="style-7">~7.00 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-info-container">
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Yesterday</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">5 SLP</span>
+                                        <span id="style-7">~1.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Manager(100%)</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~0.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Lifetime</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">34 SLP</span>
+                                        <span id="style-7">~8.18 USD</span>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">In Ronin</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~3.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Unclaimed SLP<span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">25 SLP</span>
+                                        <span id="style-7">~6.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Next Claim</span>
+                                    </div>
+                                    <span style="color: var(--Secondary-Blue, #0ED2F6);font-family: Poppins;font-size: 12px;font-style: normal;font-weight: 500;line-height: 130%;">Claim is ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container">
+                            <div class="details-button">
+                                <button><a href="#">Details</button></a>
+                            </div>
+                            <div class="edit-button">
+                                <a href="#"><img src="../Images/edit-button.png" alt="edit-button"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ufc-frame">                             <!-- Last frame starts here -->
+                        <div class="ufc-heading-container">
+                            <div class="ufc-prm-head-container">
+                                <span id="style-1">Joy River</span>
+                                <span id="style-2">Axies:</span>
+                                <span id="style-3">3</span>
+                            </div>
+                            <div class="ufc-sec-head-container">
+                                <span id="style-2">Scholar(20%): 40 SLP</span>
+                                <span id="style-4">~0.40 USD</span>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-frame-container" style="margin-top: -25px;">
+                            <div class="ufcf-fir-part">
+                                <div class="ufcf-frame">
+                                    <img class="person-dp" src="../Images/person-dp.png" />
+                                </div>
+                                <div class="ufcf-body">
+                                    <span style="color: white; font-size: 10px; font-family: Poppins; line-height: 18.20px;">Avg:</span>
+                                    <span style="color: #E93D25; font-size: 12px; font-family: Poppins; line-height: 23.40px;">20 SLP</span>
+                                    <span id="style-4">~0.500 USD</span>
+                                </div>
+                            </div>
+                            
+                            <div class="ufcf-sec-part">
+                                <div class="sec-part1">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Today</span>
+                                        <span id="style-6">10 SLP</span>
+                                        <span id="style-7">~2.00 USD</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part2">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">ELO</span>
+                                        <div class="sps-sub">
+                                            <img src="../Images/redtrophy.png"><span id="style-6">983</span>
+                                        </div>
+                                        <span id="style-7">~1 SLP/win</span>
+                                    </div>
+                                </div>
+                                <div class="sec-part3">
+                                    <div class="sec-part-sub">
+                                        <span id="style-5">Total</span>
+                                        <span id="style-6">15 SLP</span>
+                                        <span id="style-7">~7.00 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="ufc-info-container">
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Yesterday</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">5 SLP</span>
+                                        <span id="style-7">~1.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Manager(100%)</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~0.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Lifetime</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">34 SLP</span>
+                                        <span id="style-7">~8.18 USD</span>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="ul-ufci">
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">In Ronin</span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">10 SLP</span>
+                                        <span id="style-7">~3.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Unclaimed SLP<span>
+                                    </div>
+                                    <div class="ufc-info-sub2">
+                                        <span id="style-9">25 SLP</span>
+                                        <span id="style-7">~6.18 USD</span>
+                                    </div>
+                                </div>
+                                <div class="ul-ufci-sub">
+                                    <div class="ufc-info-sub1">
+                                        <span id="style-8">Next Claim</span>
+                                    </div>
+                                    <span style="color: var(--Secondary-Blue, #0ED2F6);font-family: Poppins;font-size: 12px;font-style: normal;font-weight: 500;line-height: 130%;">Claim is ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ufc-detbtn-container">
+                            <div class="details-button">
+                                <button><a href="#">Details</button></a>
+                            </div>
+                            <div class="edit-button">
+                                <a href="#"><img src="../Images/edit-button.png" alt="edit-button"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Ends the total six frames-->
+
+        </div>
+    </div>
+</body>
+</html>
